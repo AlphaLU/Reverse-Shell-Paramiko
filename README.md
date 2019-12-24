@@ -1,5 +1,5 @@
 # Reverse-Shell-Paramiko
-Using Paramiko in order to execute a reverse shell on target machine.
+Using Paramiko to execute a reverse shell on target machine.
 
 
 
@@ -9,7 +9,7 @@ I had set up an SFTP server on my raspberry pi in order to check everything and 
 
 # Client
 Simply executes the script (should've been an executable) and gives full premissions to the user on the other end, having the ability to run CMD, take screenshots, use webcam and transfer files.
-*Still no privilege escalation* 
+*Still no built-in privilege escalation* 
 
 # Plans for the future
 In the future I will add encryption, including the ability to encrypt files as they're transfered into the SFTP server.
